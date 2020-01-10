@@ -690,7 +690,6 @@ public final class BukkitMain extends JavaPlugin implements Listener, IPlotMain 
         }
         this.metricsStarted = true;
         Metrics metrics = new Metrics(this);// bstats
-        PlotSquared.log(Captions.PREFIX + "&6Metrics enabled.");
     }
 
     @Override public ChunkManager initChunkManager() {
